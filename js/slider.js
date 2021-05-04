@@ -9,12 +9,12 @@ right.addEventListener("click",()=>{changeItem(2)});
 function changeItem(n){
     if (n == 1) {
         if (item == 0) {
-        	item = 3;
+        	item = 4;
         } else {
         	item--
         }
     } else {
-        if (item == 3) {
+        if (item == 4) {
         	item = 0;
         } else {
         	item++
